@@ -66,9 +66,9 @@ I created a public [**GitHub repository**](https://github.com/codebulb/SaveActio
 
 ### The API
 The plugin provides a simple file handling API which you may use in your Groovy script code. The API consists of these classes:
-- [```CodeFile```](https://github.com/codebulb/SaveActionGroovyScripts/blob/master/src/ch/codebulb/saveactiongroovyscripts/model/CodeFile.groovy) provides functionality for getting / setting file text content, saving a file, and navigating through the file tree.
-- [```XMLFiles```](https://github.com/codebulb/SaveActionGroovyScripts/blob/master/src/ch/codebulb/saveactiongroovyscripts/util/PropertiesFiles.groovy) provides static helper methods to read / write simple XML files; "simple XML file" here meaning that they consist only of a root element and an arbitrary number of simple name / value direct child elements. When reading / writing, comments and line breaks are preserved.
-- [```PropertiesFiles```](https://github.com/codebulb/SaveActionGroovyScripts/blob/master/src/ch/codebulb/saveactiongroovyscripts/util/XmlFiles.groovy) provides static helper methods to read / write Properties files. When reading / writing, comments and line breaks are preserved.
+- [```CodeFile```](http://codebulb.github.io/pages/2015/06/SaveActionGroovyScripts/doc/ch/codebulb/saveactiongroovyscripts/model/CodeFile.html) provides functionality for getting / setting file text content, saving a file, and navigating through the file tree.
+- [```XMLFiles```](http://codebulb.github.io/pages/2015/06/SaveActionGroovyScripts/doc/ch/codebulb/saveactiongroovyscripts/util/XmlFiles.html) provides static helper methods to read / write simple XML files; "simple XML file" here meaning that they consist only of a root element and an arbitrary number of simple name / value direct child elements. When reading / writing, comments and line breaks are preserved.
+- [```PropertiesFiles```](http://codebulb.github.io/pages/2015/06/SaveActionGroovyScripts/doc/ch/codebulb/saveactiongroovyscripts/util/PropertiesFiles.html) provides static helper methods to read / write Properties files. When reading / writing, comments and line breaks are preserved.
 
 ## Questions, comments, bugs?
 This plugin project really started out of necessity for working with Android Studio. It’s still experimental. I decided to open source it only because I thought it might be useful for other people as well. If you are one of them, feel free to use it!
