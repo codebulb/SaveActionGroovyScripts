@@ -1,4 +1,4 @@
-# IntelliJ IDEA / Android Studio Save action Groovy scripts Plugin
+# Save action Groovy scripts Plugin for IntelliJ IDEA / Android Studio 
 This IntelliJ IDEA / Android Studio plugin allows the user to automatically run custom Groovy scripts when a file is saved / synchronized. Any valid Groovy script is supported; moreover, the plugin exposes a simple API to make file handling especially easy, allowing to simply implement source code formatting, file backups, file transformations, and more. Groovy script execution can be conditionally enabled / disabled based on a regex check on the path of the file which is saved.
 
 ## Getting started
