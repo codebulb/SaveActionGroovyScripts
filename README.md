@@ -62,7 +62,7 @@ This sets the content of the file with the path ```projectBaseDir/res-simple/val
 Note that when referring to classes defined by the plugin's API, you have to provide the respective ```import``` instruction.
 
 ### Download Groovy scripts
-I created a public [**GitHub repository**](https://github.com/codebulb/SaveActionGroovyScripts) to host Groovy scripts for use with this plugin. Feel free to look around to find something useful, or contribute your own Groovy script!
+I created a public [**GitHub repository**](https://github.com/codebulb/SaveActionGroovyScriptsRepository) to host Groovy scripts for use with this plugin. Feel free to look around to find something useful, or contribute your own Groovy script!
 
 ### The API
 The plugin provides a simple file handling API which you may use in your Groovy script code. The API consists of these classes:
