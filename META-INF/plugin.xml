@@ -1,0 +1,46 @@
+<idea-plugin version="2">
+  <id>ch.codebulb.saveactiongroovyscripts</id>
+  <name>Save action Groovy scripts</name>
+  <version>1.0</version>
+  <vendor email="info@codebulb.ch" url="http://www.codebulb.ch">codebulb.ch</vendor>
+
+  <description><![CDATA[
+      Enter short description for your plugin here.<br>
+      <em>most HTML tags may be used</em>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      Add change notes here.<br>
+      <em>most HTML tags may be used</em>
+    ]]>
+  </change-notes>
+
+  <!-- please see https://confluence.jetbrains.com/display/IDEADEV/Build+Number+Ranges for description -->
+  <idea-version since-build="131"/>
+
+  <!-- please see https://confluence.jetbrains.com/display/IDEADEV/Plugin+Compatibility+with+IntelliJ+Platform+Products
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <applicationService serviceImplementation="ch.codebulb.saveactiongroovyscripts.plugin.Settings"/>
+    <applicationConfigurable instance="ch.codebulb.saveactiongroovyscripts.plugin.Configuration"/>
+  </extensions>
+
+  <application-components>
+    <component>
+      <implementation-class>ch.codebulb.saveactiongroovyscripts.plugin.Component</implementation-class>
+    </component>
+  </application-components>
+
+  <project-components>
+    <!-- Add your project components here -->
+  </project-components>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
