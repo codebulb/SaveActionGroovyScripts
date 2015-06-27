@@ -76,7 +76,22 @@ If you have questions or comments, please leave them on the [**blog post**](http
 However, if you found a bug or if you would like to contribute to this project, please feel free to do so by making a pull request.
 
 ## Share your script!
-If you created an “on save Groovy script” which you think is useful for the general public, please feel free to upload it to the [Groovy scripts repository](https://github.com/codebulb/SaveActionGroovyScriptsRepository)! Thank you!
+If you created an “on save Groovy script” which you think is useful for the general public, please feel free to upload it to the [Groovy scripts repository](https://github.com/codebulb/SaveActionGroovyScriptsRepository)!
+
+If you do so, please provide information about the recommended ```onsaveGroovyScriptsConfig.properties``` config key (the file name regex) the user should use to work with this script, e.g. be providing this script file header:
+
+	// 
+	// Groovy script for use with SaveActionGroovyScripts IntelliJ IDEA / Android Studio plugin
+	// (https://github.com/codebulb/SaveActionGroovyScripts)
+	// 
+	// Recommended onsaveGroovyScriptsConfig.properties config key:
+	// (enter key)
+	// 
+	// Description:
+	// (enter description)
+	// 
+
+Thank you for your contribution!
 
 ## Credits
 The entire plugin is based on the similar [Save Actions Plugin](https://github.com/dubreuia/intellij-plugin-save-actions). Although this is indeed a very good plugin, it just didn’t provide the amount of customization I was looking for, thus I used it as the solid foundation to build this plugin.
