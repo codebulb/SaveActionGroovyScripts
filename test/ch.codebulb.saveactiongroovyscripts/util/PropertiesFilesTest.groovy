@@ -12,6 +12,7 @@ first=one
 # empty line:
 
 second = two
+no.value=
 """
 
     private static final String SOURCE_STRICT = cap """
@@ -19,6 +20,7 @@ first=one
 # empty line:
 
 second=two
+no.value=
 """
 
     private static final List<CodeLine> MODEL = [
@@ -26,6 +28,7 @@ second=two
             new CodeLine.Comment('empty line:'),
             new CodeLine.Empty(),
             new CodeLine.Text('second', 'two'),
+            new CodeLine.Text('no.value', ''),
     ].asImmutable()
 
     @Test

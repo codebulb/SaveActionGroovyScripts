@@ -14,6 +14,7 @@ class XmlFilesTest {
 \t<!-- empty line: -->
 
 \t<element name="second">two</element>
+\t<element name="no.value"></element>
 </root>
 """
 
@@ -22,6 +23,7 @@ class XmlFilesTest {
             new CodeLine.Comment('empty line:'),
             new CodeLine.Empty(),
             new CodeLine.Text('second', 'two'),
+            new CodeLine.Text('no.value', ''),
     ].asImmutable()
 
     @Test

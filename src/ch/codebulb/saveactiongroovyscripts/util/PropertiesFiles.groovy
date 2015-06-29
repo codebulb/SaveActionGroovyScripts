@@ -24,7 +24,8 @@ class PropertiesFiles {
             } else {
                 // value
                 String[] split = line.split('=')
-                return new CodeLine.Text(split[0].trim(), split[1].trim())
+                // Note: split[1] raises ArrayIndexOutOfBoundsException on empty right-hand side
+                return new CodeLine.Text(split[0].trim(), split.size() > 1 ? split[1].trim() : '')
             }
         }
     }
